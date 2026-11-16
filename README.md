@@ -27,7 +27,7 @@ This commands includes
 <BR>
 ##program
 server.py
-~~~
+
 import socket
 from pythonping import ping
 
@@ -53,7 +53,7 @@ while True:
     s.send(ip.encode())
     print(s.recv(1024).decode())
 
-~~~
+
 
 ## Output
 <img width="750" height="226" alt="image" src="https://github.com/user-attachments/assets/4756688d-c163-4244-9333-d1df39dfa5e2" />
